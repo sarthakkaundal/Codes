@@ -17,3 +17,13 @@
   - Modulo n keeps the index within bounds, and adding n handles negative jumps safely.
   - The value at the computed index is stored in result[i].
   - A do-while loop ensures every index is visited exactly once, giving O(n) time and O(n) space.
+
+### 2026-02-06
+- Other: LC58.java
+  Approach:
+  - Initialize a counter to store the length of the last word.
+  - Use trim() to remove leading and trailing spaces from the input string.
+  - Traverse the string from the end and increment the counter for each character until a space is encountered.
+  - Stop traversal when the first space before the last word is found and return the counter.
+  - Time Complexity : O(n)
+  - Space Complexity: O(1)
