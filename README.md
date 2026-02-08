@@ -38,3 +38,21 @@
   - If mid is good, the first bad version must be after it, so move low = mid + 1.
   - When the loop ends, low == high, which points to the first bad version.
   - Time complexity is O(log n) and space complexity is O(1).
+
+
+### 2026-02-08
+- Other: LC110.java
+  Approach:
+  - Use a recursive helper function that computes the height of the tree while simultaneously checking balance.
+  - The helper function follows these rules:
+  - If the current node is null, return height 0.
+  - Recursively compute the heights of the left and right subtrees.
+  - If either subtree is already unbalanced (indicated by height -1), immediately return -1.
+  - If the absolute difference between left and right subtree heights is greater than 1, return -1 to signal imbalance.
+  - Otherwise, return the height of the current subtree as
+  - 1 + max(leftHeight, rightHeight).
+  - The main function calls the helper on the root:
+  - If the helper returns -1, the tree is not balanced.
+  - Otherwise, the tree is balanced.
+  - Time Complexity: O(n) — each node is visited once.
+  - Space Complexity: O(h) — recursion stack space, where h is the height of the tree (worst case O(n)).
