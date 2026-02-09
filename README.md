@@ -56,3 +56,24 @@
   - Otherwise, the tree is balanced.
   - Time Complexity: O(n) — each node is visited once.
   - Space Complexity: O(h) — recursion stack space, where h is the height of the tree (worst case O(n)).
+
+### 2026-02-09
+- Other: LC34.java
+  Approach:
+  - The array is sorted, so binary search can be used to locate the required range efficiently.
+  - Instead of trying to find both boundaries in one pass, we perform two separate binary searches:
+  - Find the first occurrence (start index)
+  - Perform binary search.
+  - When nums[mid] == target, record mid as a potential answer.
+  - Continue searching left half (right = mid - 1) to find an earlier occurrence.
+  - If nums[mid] < target, move right.
+  - If nums[mid] > target, move left.
+  - Find the last occurrence (end index)
+  - Perform binary search again.
+  - When nums[mid] == target, record mid as a potential answer.
+  - Continue searching right half (left = mid + 1) to find a later occurrence.
+  - If nums[mid] < target, move right.
+  - If nums[mid] > target, move left.
+  - If the target does not exist, both searches return -1.
+  - Time Complexity: O(n logn)
+  - Space: O(1)
