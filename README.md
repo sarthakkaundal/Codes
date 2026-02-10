@@ -77,3 +77,19 @@
   - If the target does not exist, both searches return -1.
   - Time Complexity: O(n logn)
   - Space: O(1)
+
+### 2026-02-10
+- Other: LC69.java
+  Approach:
+  - Handle the base cases first: if the input number is 0 or 1, return the number itself since its square root is the same.
+  - For all other values, apply binary search to find the integer square root.
+  - Initialize two pointers:
+  - low as 1
+  - high as x
+  - At each step:
+  - Compute mid as the average of low and high.
+  - If mid × mid equals x, mid is the exact square root, so return it.
+  - If mid × mid is greater than x, the square root lies in the left half, so move high to mid − 1.
+  - If mid × mid is less than x, store mid as a possible answer and move low to mid + 1.
+  - Continue until the search space is exhausted.
+  - The stored value in ans represents the largest integer whose square is less than or equal to x, which is the required integer square root.
