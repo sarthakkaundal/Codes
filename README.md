@@ -93,3 +93,14 @@
   - If mid × mid is less than x, store mid as a possible answer and move low to mid + 1.
   - Continue until the search space is exhausted.
   - The stored value in ans represents the largest integer whose square is less than or equal to x, which is the required integer square root.
+
+### 2026-02-11
+- Other: LC206.java
+  Approach:
+  - We iterate through the linked list while reversing the direction of each node’s `next` pointer.
+  - At every step, we first save the next node to avoid losing the remaining list, then point the current node’s `next` to the previous node.
+  - After reversing the link, we move the `prev` pointer to the current node and advance the `curr` pointer to the saved next node.
+  - We continue this process until `curr` becomes `null`.
+  - Finally, `prev` points to the new head of the reversed list and is returned.
+  - time complexity: O(n)
+  - space complexity: O(1)
