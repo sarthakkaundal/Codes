@@ -104,3 +104,20 @@
   - Finally, `prev` points to the new head of the reversed list and is returned.
   - time complexity: O(n)
   - space complexity: O(1)
+
+### 2026-02-11
+- Other: LC203.java
+  Approach:
+  - Use a dummy node before head so deletion logic is uniform, even when the head node itself must be removed.
+  - Maintain two pointers:
+  - curr to traverse the list.
+  - prev to track the last node that is kept.
+  - Traverse the list:
+  - If curr.val == val, remove the node by linking prev.next to curr.next.
+  - Otherwise, keep the node and move prev forward.
+  - Always move curr forward.
+  - Return dummy.next, which represents the updated head.
+  - Time Complexity
+  - O(n) — each node is visited once.
+  - Space Complexity
+  - O(1) — only constant extra space is used.
