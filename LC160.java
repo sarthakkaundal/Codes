@@ -1,14 +1,3 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
 // Approach 
 // Use two pointers, currA starting at headA and currB starting at headB.
 // Traverse both lists one step at a time.
@@ -20,8 +9,19 @@
 // ⏱️ Complexity
 // Time: O(n + m)
 // Space: O(1)
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
 
-public class LC160 {
+public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode currA = headA;
         ListNode currB = headB;
