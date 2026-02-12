@@ -121,3 +121,22 @@
   - O(n) — each node is visited once.
   - Space Complexity
   - O(1) — only constant extra space is used.
+
+
+
+### 2026-02-12
+- Other: LC160.java
+
+### 2026-02-12
+- Other: LC160.java
+  Approach:
+  - Use two pointers, currA starting at headA and currB starting at headB.
+  - Traverse both lists one step at a time.
+  - When a pointer reaches the end (null), redirect it to the head of the other list.
+  - This redirection makes both pointers traverse the same total distance (lengthA + lengthB).
+  - If an intersection exists, both pointers will eventually point to the same node at the same time.
+  - If no intersection exists, both pointers will become null together and the loop ends.
+  - Return the node where both pointers meet (or null if they don’t).
+  - Complexity
+  - Time: O(n + m)
+  - Space: O(1)
