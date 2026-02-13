@@ -140,3 +140,29 @@
   - Complexity
   - Time: O(n + m)
   - Space: O(1)
+
+
+### 2026-02-13
+- Other: LC24.java
+
+### 2026-02-13
+- Other: LC24.java
+  Approach:
+  - Use a dummy node before the head to simplify swapping when the first pair includes the head.
+  - Maintain two pointers:
+  - prev → points to the node before the current pair
+  - curr → points to the first node of the current pair
+  - Traverse the list while there are at least two nodes to swap.
+  - For each pair:
+  - Save the start of the next pair.
+  - Identify the second node of the current pair.
+  - Rewire three links to swap the pair:
+  - First node points to the next pair.
+  - Second node points to the first node.
+  - Previous node points to the second node.
+  - After swapping, move:
+  - prev to the tail of the swapped pair.
+  - curr to the start of the next pair.
+  - Return dummy.next, which points to the new head after all swaps.
+  - Time Complexity: O(n)
+  - Space Complexity: O(1)
