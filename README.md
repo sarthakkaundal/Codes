@@ -184,3 +184,17 @@
   - Return str1.substring(0, gcd).
   - Time Complexity: O(n + m), where n and m are lengths of str1 and str2.
   - Space Complexity: O(1)
+
+### 2026-02-16
+- Other: LC303.java
+  Approach:
+  - Use prefix sum array to avoid recomputing sums for every query
+  - prefix[i] stores sum of elements from index 0 to i-1
+  - Prefix array size is nums.length + 1 to handle index 0 cleanly
+  - Build prefix array once in the constructor
+  - Range sum [left, right] is calculated as
+  - prefix[right + 1] - prefix[left]
+  - Subtraction removes elements before left
+  - Each query runs in O(1) time
+  - Preprocessing takes O(n) time
+  - Extra space used is O(n)
