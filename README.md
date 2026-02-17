@@ -198,3 +198,15 @@
   - Each query runs in O(1) time
   - Preprocessing takes O(n) time
   - Extra space used is O(n)
+
+### 2026-02-17
+- Other: LC268.java
+  Approach:
+  - Initialize xor with n (array length).
+  - Iterate i from 0 to n-1.
+  - XOR xor with index i.
+  - XOR xor with value nums[i].
+  - All numbers from 0 to n appear twice except the missing one.
+  - XOR cancels duplicates (a ^ a = 0).
+  - Remaining value in xor is the missing number.
+  - Time: O(n), Space: O(1).
