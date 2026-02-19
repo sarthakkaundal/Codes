@@ -224,3 +224,17 @@
   - If fast or fast.next becomes null, no cycle exists → return null
   - time : O(n)
   - space: O(1)
+
+### 2026-02-19
+- Other: LC104.java
+  Approach:
+  - Treat the problem as divide and conquer on a tree
+  - Define depth of a node as 1 + maximum depth of its subtrees
+  - Use recursion to ask left and right children for their depths
+  - Base case: a null node contributes depth 0
+  - Compare left and right subtree depths
+  - Add 1 to include the current node
+  - Return the computed value upward to the parent
+  - Final value returned from the root is the maximum depth of the tree
+  - time: O(n), n = number of nodes
+  - space: O(h), h = height of tree
