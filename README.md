@@ -238,3 +238,17 @@
   - Final value returned from the root is the maximum depth of the tree
   - time: O(n), n = number of nodes
   - space: O(h), h = height of tree
+
+### 2026-02-20
+- Other: LC226.java
+  Approach:
+  - Use recursion to process the tree node by node
+  - Base case: if the current node is null, return null
+  - At each node:
+  - Temporarily store the left child
+  - Recursively invert the right subtree and assign it to the left
+  - Recursively invert the stored left subtree and assign it to the right
+  - This performs a post-order–style swap, ensuring children are inverted before final placement
+  - Return the current node as the root of the inverted subtree
+  - time: O(n), n=no of nodes
+  - space: o(h), height of tree
