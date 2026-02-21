@@ -252,3 +252,18 @@
   - Return the current node as the root of the inverted subtree
   - time: O(n), n=no of nodes
   - space: o(h), height of tree
+
+### 2026-02-21
+- Other: LC125.java
+  Approach:
+  - Clean the string
+  - Remove all non-alphanumeric characters using regex.
+  - Normalize case
+  - Convert the string to lowercase to ignore case differences.
+  - Reverse the string
+  - Use StringBuilder to reverse the cleaned string.
+  - Compare
+  - If original and reversed strings are equal, it is a palindrome.
+  - Complexity
+  - Time: O(n)
+  - Space: O(n)
