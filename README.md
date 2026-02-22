@@ -267,3 +267,12 @@
   - Complexity
   - Time: O(n)
   - Space: O(n)
+
+
+### 2026-02-22
+- Other: LC258.java
+  Approach:
+  - Repeatedly sum the digits of the number until a single digit remains;
+  - this can be optimized using the digital root formula 1 + (num − 1) % 9 (except when num = 0).
+  - time:O(1)
+  - space :O(1)
