@@ -276,3 +276,16 @@
   - this can be optimized using the digital root formula 1 + (num − 1) % 9 (except when num = 0).
   - time:O(1)
   - space :O(1)
+
+### 2026-02-23
+- Other: LC92.java
+  Approach:
+  - Create a dummy node pointing to head to handle the case when left = 1.
+  - Move prev to the node just before position left.
+  - Let curr be the node at position left.
+  - Reverse the sublist [left, right] using head-insertion:
+  - Take the node after curr and insert it immediately after prev.
+  - Repeat this right − left times.
+  - Return dummy.next as the new head.
+  - Time: O(n)
+  - Space: O(1)
