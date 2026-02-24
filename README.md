@@ -289,3 +289,16 @@
   - Return dummy.next as the new head.
   - Time: O(n)
   - Space: O(1)
+
+### 2026-02-24
+- Other: LC1022.java
+  Approach:
+  - Traverse the binary tree using DFS.
+  - Maintain an integer curr representing the decimal value of the binary number formed from root to current node.
+  - At each node, update curr using
+  - curr = (curr << 1) | node.val to append the current bit.
+  - When a leaf node is reached, add curr to the answer.
+  - Return the sum of values from left and right subtrees.
+  - Start DFS from the root with curr = 0.
+  - Time Complexity: O(N)
+  - Space Complexity: O(H) (recursion stack)
