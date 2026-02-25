@@ -302,3 +302,18 @@
   - Start DFS from the root with curr = 0.
   - Time Complexity: O(N)
   - Space Complexity: O(H) (recursion stack)
+
+
+
+### 2026-02-25
+- Other: LC739.java
+  Approach:
+  - Use a stack to store indices of days with decreasing temperatures.
+  - Traverse the array from left to right.
+  - For each day i, while the stack is not empty and current temperature is higher than the temperature at the index on top of the stack:
+  - Pop the index prev from the stack.
+  - The answer for prev is i - prev (days waited for a warmer temperature).
+  - Push the current index i onto the stack.
+  - Indices left in the stack have no warmer future day, so their result remains 0.
+  - Time: O(n) (each index pushed and popped once)
+  - Space: O(n) (stack + result array)
