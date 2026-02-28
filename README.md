@@ -345,3 +345,16 @@
   - Decrement the corresponding pointer (`i` or `j`) and `k`.
   - Continue until all elements of `nums2` are merged.
   - No extra space used since merging is done in-place.
+
+### 2026-02-28
+- Other: LC257.java
+  Approach:
+  - Use DFS (preorder) to traverse the tree.
+  - Carry the current path as a string from root to the current node.
+  - When a leaf node is reached, add the built path to the result list.
+  - Append "->" only when moving to child nodes.
+  - Time Complexity
+  - O(n) — each node is visited once.
+  - space comlexity
+  - O(h) — recursion stack (h = height of the tree).
+  - O(n)
