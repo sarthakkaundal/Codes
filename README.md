@@ -358,3 +358,16 @@
   - space comlexity
   - O(h) — recursion stack (h = height of the tree).
   - O(n)
+
+### 2026-03-01
+- Other: LC682.java
+  Approach:
+  - Use a stack to store valid round scores.
+  - Traverse each operation in order.
+  - If "+", push the sum of the last two scores.
+  - If "D", push double of the last score.
+  - If "C", remove the last score.
+  - Otherwise, parse and push the numeric score.
+  - Sum all remaining stack values to get the final score.
+  - Time Complexity: O(n) — each operation is processed once.
+  - Space Complexity: O(n) — stack stores up to n scores.
