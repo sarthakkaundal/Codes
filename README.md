@@ -371,3 +371,17 @@
   - Sum all remaining stack values to get the final score.
   - Time Complexity: O(n) — each operation is processed once.
   - Space Complexity: O(n) — stack stores up to n scores.
+
+### 2026-03-02
+- Other: LC496.java
+  Approach:
+  - This solution uses a straightforward Brute Force strategy.
+  - For every element x in the nums1 array:
+  - Find the match: Iterate through nums2 to find the index (idx) where nums2[j] == x.
+  - Find the next greater element: Start a new search in nums2 from idx + 1 to the right end of the array.
+  - The moment you find an element strictly greater than x, you store it in
+  - next and break out of the loop.
+  - If no such element is found, next remains unchanged as -1.
+  - Store the final result for that element in the res array.
+  - Space Complexity: O(1) (excluding the output array).
+  - Time Complexity: O(N*M), where N is the length of nums1 and M is the length of nums2.
