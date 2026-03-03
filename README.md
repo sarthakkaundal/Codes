@@ -385,3 +385,17 @@
   - Store the final result for that element in the res array.
   - Space Complexity: O(1) (excluding the output array).
   - Time Complexity: O(N*M), where N is the length of nums1 and M is the length of nums2.
+
+### 2026-03-03
+- Other: LC1545.java
+  Approach:
+  - The code uses a brute force / iterative approach to simulate the exact process described in the problem statement.
+  - -It initializes the base string S1 as "0".
+  - -It loops from i = 2 up to n, iteratively constructing S_i by concatenating:
+  - The previous string S_{i-1}
+  - A "1"
+  - The inverted and reversed version of S_{i-1}
+  - It uses StringBuilder (in both reverse() and invert() helper functions, as well as the main loop) to efficiently append characters, reverse strings, and construct the new string S_i.
+  - Once the string S_n is fully built, it returns the character at the 0-based index k - 1.
+  - time complexity: O(n^2)
+  - space complexity: O(n^2)
