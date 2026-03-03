@@ -1,6 +1,5 @@
 // Approach: Iterative String Construction
 // The code uses a brute force / iterative approach to simulate the exact process described in the problem statement.
-
 // -It initializes the base string S1 as "0".
 // -It loops from i = 2 up to n, iteratively constructing S_i by concatenating:
 // The previous string S_{i-1}
@@ -11,34 +10,60 @@
 // time complexity: O(n^2)
 // space complexity: O(n^2)
 
+// class Solution {
+//     public char findKthBit(int n, int k) {
+//         String s = "0";
+//         for(int i=2; i<=n; i++){
+//             StringBuilder sb = new StringBuilder();
+//             sb.append(s);
+//             sb.append("1");
+//             sb.append(reverse(invert(s)));
+//             s = sb.toString();
+//         }
+//         return s.charAt(k-1);
+//     }
+
+//     private String reverse(String s){
+//         StringBuilder sb = new StringBuilder(s);
+//         sb.reverse();
+//         return sb.toString();
+//     }
+
+//     private String invert(String s){
+//         StringBuilder sb = new StringBuilder();
+//         for(char c : s.toCharArray()){
+//             if(c == '0'){
+//                 sb.append('1');
+//             }else{
+//                 sb.append('0');
+//             }
+//         }
+//         return sb.toString();
+//     }
+// }
+
+//optimal approach
 class Solution {
     public char findKthBit(int n, int k) {
-        String s = "0";
-        for(int i=2; i<=n; i++){
-            StringBuilder sb = new StringBuilder();
-            sb.append(s);
-            sb.append("1");
-            sb.append(reverse(invert(s)));
-            s = sb.toString();
+        if(n == 1) return '0';
+
+        int len = (1 << n) - 1;
+        int mid = len/2 + 1;
+
+        if(mid == k) return '1';
+        if(k<mid){
+            return findKthBit(n-1, k);
+        }else{
+            return invert(findKthBit(n-1, len - k + 1));
         }
-        return s.charAt(k-1);
     }
 
-    private String reverse(String s){
-        StringBuilder sb = new StringBuilder(s);
-        sb.reverse();
-        return sb.toString();
-    }
-
-    private String invert(String s){
-        StringBuilder sb = new StringBuilder();
-        for(char c : s.toCharArray()){
-            if(c == '0'){
-                sb.append('1');
+    private char invert(char s){
+            if(s == '0'){
+                s = '1';
             }else{
-                sb.append('0');
+                s = '0';
             }
-        }
-        return sb.toString();
+        return s;
     }
 }
