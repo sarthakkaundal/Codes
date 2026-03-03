@@ -35,3 +35,33 @@ class Solution {
         return res;        
     }
 } 
+
+//optimal approach using stack and map
+//time complexity: O(m + n);
+//space complexity: O(n);
+class Solution {
+    public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+        int[] res = new int[nums1.length];
+        Stack<Integer> st = new Stack<>();
+        HashMap<Integer, Integer> map= new HashMap<>();
+
+        for(int i = 0; i<nums2.length; i++){
+            while(!st.isEmpty() && nums2[i] > st.peek()){
+                int x = st.peek();
+                map.put(x, nums2[i]);
+                st.pop();
+            }
+            st.push(nums2[i]);
+        }
+
+        for(int i=0; i<nums1.length; i++){
+            if(map.get(nums1[i]) != null){
+                res[i] = map.get(nums1[i]);
+            }else{
+                res[i]= -1;
+            }
+        }
+        
+        return res;        
+    }
+} 
