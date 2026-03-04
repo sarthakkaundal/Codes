@@ -399,3 +399,14 @@
   - Once the string S_n is fully built, it returns the character at the 0-based index k - 1.
   - time complexity: O(n^2)
   - space complexity: O(n^2)
+
+
+### 2026-03-04
+- Other: LC1582.java
+  Approach:
+  - Iterate through each cell of the matrix. If a cell contains a 1, check its entire row
+  - and column to ensure there are no other 1s. If it is the only 1 in its row and column,
+  - increment the count of special positions.
+  - Time Complexity: O(n * m * (n + m)) in the worst case, where n is the number of rows
+  - and m is the number of columns. For each cell containing a 1, we traverse its row and column.
+  - Space Complexity: O(1) as we only use a constant amount of extra space for tracking.
