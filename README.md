@@ -410,3 +410,22 @@
   - Time Complexity: O(n * m * (n + m)) in the worst case, where n is the number of rows
   - and m is the number of columns. For each cell containing a 1, we traverse its row and column.
   - Space Complexity: O(1) as we only use a constant amount of extra space for tracking.
+
+
+### 2026-03-05
+- Other: LC1758.java
+  Approach:
+  - There are only two possible valid alternating binary strings of length n:
+  - 1. Starts with '0' (e.g., "010101...")
+  - 2. Starts with '1' (e.g., "101010...")
+  - We can iterate through the given string and count the number of differences
+  - (operations)
+  - required to match either of these two target strings.
+  - - `start0` tracks changes needed to match the pattern starting with '0'.
+  - - `start1` tracks changes needed to match the pattern starting with '1'.
+  - Finally, we return the minimum of the two counts.
+  - Time Complexity: O(n)
+  - We iterate through the string of length n exactly once.
+  - Space Complexity: O(1)
+  - We only use two integer variables for counting, requiring constant extra
+  - space.
