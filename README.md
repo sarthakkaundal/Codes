@@ -451,6 +451,7 @@
 ## Array
 |  |
 | ------- |
+| [2574-left-and-right-sum-differences](https://github.com/sarthakkaundal/Codes/tree/master/2574-left-and-right-sum-differences) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sarthakkaundal/Codes/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Two Pointers
 |  |
@@ -482,4 +483,8 @@
 |  |
 | ------- |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/sarthakkaundal/Codes/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+## Prefix Sum
+|  |
+| ------- |
+| [2574-left-and-right-sum-differences](https://github.com/sarthakkaundal/Codes/tree/master/2574-left-and-right-sum-differences) |
 <!---LeetCode Topics End-->
