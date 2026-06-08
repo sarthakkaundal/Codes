@@ -451,11 +451,13 @@
 ## Array
 |  |
 | ------- |
+| [2161-partition-array-according-to-given-pivot](https://github.com/sarthakkaundal/Codes/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2574-left-and-right-sum-differences](https://github.com/sarthakkaundal/Codes/tree/master/2574-left-and-right-sum-differences) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sarthakkaundal/Codes/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Two Pointers
 |  |
 | ------- |
+| [2161-partition-array-according-to-given-pivot](https://github.com/sarthakkaundal/Codes/tree/master/2161-partition-array-according-to-given-pivot) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sarthakkaundal/Codes/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Binary Search
 |  |
@@ -487,4 +489,8 @@
 |  |
 | ------- |
 | [2574-left-and-right-sum-differences](https://github.com/sarthakkaundal/Codes/tree/master/2574-left-and-right-sum-differences) |
+## Simulation
+|  |
+| ------- |
+| [2161-partition-array-according-to-given-pivot](https://github.com/sarthakkaundal/Codes/tree/master/2161-partition-array-according-to-given-pivot) |
 <!---LeetCode Topics End-->
