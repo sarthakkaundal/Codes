@@ -496,6 +496,7 @@
 |  |
 | ------- |
 | [2161-partition-array-according-to-given-pivot](https://github.com/sarthakkaundal/Codes/tree/master/2161-partition-array-according-to-given-pivot) |
+| [3614-process-string-with-special-operations-ii](https://github.com/sarthakkaundal/Codes/tree/master/3614-process-string-with-special-operations-ii) |
 ## Segment Tree
 |  |
 | ------- |
@@ -508,4 +509,8 @@
 |  |
 | ------- |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/sarthakkaundal/Codes/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+## String
+|  |
+| ------- |
+| [3614-process-string-with-special-operations-ii](https://github.com/sarthakkaundal/Codes/tree/master/3614-process-string-with-special-operations-ii) |
 <!---LeetCode Topics End-->
