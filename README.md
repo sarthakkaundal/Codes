@@ -452,6 +452,7 @@
 |  |
 | ------- |
 | [1732-find-the-highest-altitude](https://github.com/sarthakkaundal/Codes/tree/master/1732-find-the-highest-altitude) |
+| [1840-maximum-building-height](https://github.com/sarthakkaundal/Codes/tree/master/1840-maximum-building-height) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/sarthakkaundal/Codes/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2574-left-and-right-sum-differences](https://github.com/sarthakkaundal/Codes/tree/master/2574-left-and-right-sum-differences) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sarthakkaundal/Codes/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -474,11 +475,13 @@
 ## Sorting
 |  |
 | ------- |
+| [1840-maximum-building-height](https://github.com/sarthakkaundal/Codes/tree/master/1840-maximum-building-height) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sarthakkaundal/Codes/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Math
 |  |
 | ------- |
 | [1344-angle-between-hands-of-a-clock](https://github.com/sarthakkaundal/Codes/tree/master/1344-angle-between-hands-of-a-clock) |
+| [1840-maximum-building-height](https://github.com/sarthakkaundal/Codes/tree/master/1840-maximum-building-height) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/sarthakkaundal/Codes/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/sarthakkaundal/Codes/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 ## Dynamic Programming
