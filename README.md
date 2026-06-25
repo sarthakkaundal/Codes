@@ -451,6 +451,7 @@
 ## Array
 |  |
 | ------- |
+| [0875-koko-eating-bananas](https://github.com/sarthakkaundal/Codes/tree/master/0875-koko-eating-bananas) |
 | [1732-find-the-highest-altitude](https://github.com/sarthakkaundal/Codes/tree/master/1732-find-the-highest-altitude) |
 | [1840-maximum-building-height](https://github.com/sarthakkaundal/Codes/tree/master/1840-maximum-building-height) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/sarthakkaundal/Codes/tree/master/2161-partition-array-according-to-given-pivot) |
@@ -466,6 +467,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0875-koko-eating-bananas](https://github.com/sarthakkaundal/Codes/tree/master/0875-koko-eating-bananas) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sarthakkaundal/Codes/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Greedy
 |  |
