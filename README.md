@@ -454,6 +454,7 @@
 | [0875-koko-eating-bananas](https://github.com/sarthakkaundal/Codes/tree/master/0875-koko-eating-bananas) |
 | [1732-find-the-highest-altitude](https://github.com/sarthakkaundal/Codes/tree/master/1732-find-the-highest-altitude) |
 | [1840-maximum-building-height](https://github.com/sarthakkaundal/Codes/tree/master/1840-maximum-building-height) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/sarthakkaundal/Codes/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/sarthakkaundal/Codes/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2574-left-and-right-sum-differences](https://github.com/sarthakkaundal/Codes/tree/master/2574-left-and-right-sum-differences) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sarthakkaundal/Codes/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -523,6 +524,7 @@
 ## String
 |  |
 | ------- |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/sarthakkaundal/Codes/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3614-process-string-with-special-operations-ii](https://github.com/sarthakkaundal/Codes/tree/master/3614-process-string-with-special-operations-ii) |
 ## Hash Table
 |  |
