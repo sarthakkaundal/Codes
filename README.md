@@ -457,6 +457,7 @@
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/sarthakkaundal/Codes/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/sarthakkaundal/Codes/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2574-left-and-right-sum-differences](https://github.com/sarthakkaundal/Codes/tree/master/2574-left-and-right-sum-differences) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sarthakkaundal/Codes/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sarthakkaundal/Codes/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/sarthakkaundal/Codes/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/sarthakkaundal/Codes/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -470,6 +471,7 @@
 |  |
 | ------- |
 | [0875-koko-eating-bananas](https://github.com/sarthakkaundal/Codes/tree/master/0875-koko-eating-bananas) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sarthakkaundal/Codes/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sarthakkaundal/Codes/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Greedy
 |  |
@@ -516,6 +518,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sarthakkaundal/Codes/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/sarthakkaundal/Codes/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Linked List
 |  |
@@ -542,4 +545,16 @@
 |  |
 | ------- |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/sarthakkaundal/Codes/tree/master/3737-count-subarrays-with-majority-element-i) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sarthakkaundal/Codes/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Union-Find
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sarthakkaundal/Codes/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Matrix
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sarthakkaundal/Codes/tree/master/2812-find-the-safest-path-in-a-grid) |
 <!---LeetCode Topics End-->
