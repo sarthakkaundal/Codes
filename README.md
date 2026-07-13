@@ -453,6 +453,7 @@
 | ------- |
 | [0875-koko-eating-bananas](https://github.com/sarthakkaundal/Codes/tree/master/0875-koko-eating-bananas) |
 | [1301-number-of-paths-with-max-score](https://github.com/sarthakkaundal/Codes/tree/master/1301-number-of-paths-with-max-score) |
+| [1331-rank-transform-of-an-array](https://github.com/sarthakkaundal/Codes/tree/master/1331-rank-transform-of-an-array) |
 | [1732-find-the-highest-altitude](https://github.com/sarthakkaundal/Codes/tree/master/1732-find-the-highest-altitude) |
 | [1840-maximum-building-height](https://github.com/sarthakkaundal/Codes/tree/master/1840-maximum-building-height) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/sarthakkaundal/Codes/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -482,6 +483,7 @@
 ## Sorting
 |  |
 | ------- |
+| [1331-rank-transform-of-an-array](https://github.com/sarthakkaundal/Codes/tree/master/1331-rank-transform-of-an-array) |
 | [1840-maximum-building-height](https://github.com/sarthakkaundal/Codes/tree/master/1840-maximum-building-height) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sarthakkaundal/Codes/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Math
@@ -534,6 +536,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [1331-rank-transform-of-an-array](https://github.com/sarthakkaundal/Codes/tree/master/1331-rank-transform-of-an-array) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/sarthakkaundal/Codes/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Divide and Conquer
 |  |
