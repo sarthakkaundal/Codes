@@ -451,6 +451,7 @@
 ## Array
 |  |
 | ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sarthakkaundal/Codes/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0875-koko-eating-bananas](https://github.com/sarthakkaundal/Codes/tree/master/0875-koko-eating-bananas) |
 | [1301-number-of-paths-with-max-score](https://github.com/sarthakkaundal/Codes/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/sarthakkaundal/Codes/tree/master/1331-rank-transform-of-an-array) |
@@ -479,6 +480,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sarthakkaundal/Codes/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sarthakkaundal/Codes/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/sarthakkaundal/Codes/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Sorting
@@ -498,6 +500,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sarthakkaundal/Codes/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [1301-number-of-paths-with-max-score](https://github.com/sarthakkaundal/Codes/tree/master/1301-number-of-paths-with-max-score) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/sarthakkaundal/Codes/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/sarthakkaundal/Codes/tree/master/3751-total-waviness-of-numbers-in-range-i) |
